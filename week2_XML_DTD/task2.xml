@@ -8,7 +8,8 @@
   <!ELEMENT yellows (player*)>
   <!ELEMENT reds (player*)>
   <!ATTLIST game score CDATA "">
-  <!ELEMENT score (score, player)>
+  <!ELEMENT score (player)>
+  <!ELEMENT player (#PCDATA)>
   <!ELEMENT score EMPTY>
   <!ATTLIST score me CDATA "" 
   type CDATA ""
