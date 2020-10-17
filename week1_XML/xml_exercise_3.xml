@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logic_operators>
+    <logic_operator>
+        <condition>Equal to</condition>
+        <operator><![CDATA[=]]></operator>
+        <example><![CDATA[=A1=B1]]></example>
+        <description>The formula returns TRUE if ...</description>
+    </logic_operator>
+    <logic_operator>
+        <condition>Not equal to</condition>
+        <operator><![CDATA[<>]]></operator>
+        <example><![CDATA[=A1<>B1]]></example>
+        <description>The formula returns TRUE if...</description>
+    </logic_operator>
+</logic_operators>
