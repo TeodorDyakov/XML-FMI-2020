@@ -1,9 +1,13 @@
 <?xml version = "1.0" encoding="UTF-8"?>
 <!DOCTYPE channel [
 
+
 <!ELEMENT channel (item+,title,link,image*,language?,description)>
 <!ATTLIST channel version CDATA "">
-<!ELEMENT item (title,link,description?)>
+<!ELEMENT item 
+((title,link,description?)|(title,description?,link)
+|(link,title,description?)|(link,description?,title)
+|(description?,title,link)|(description?,link,title))>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT link (#PCDATA)>
 <!ELEMENT image (title, link, url)>
