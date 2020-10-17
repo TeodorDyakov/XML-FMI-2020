@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<!DOCTYPE channel [
+<!ELEMENT channel (item,title,link,image,language,description)>
+<!ELEMENT item >
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT image >
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT title (#PCDATA)>
+]>
+<channel version = "1.0">
+	<item>
+		<title>What is the mass of the Earth on moon</title>
+		<link>www.youtube.com/mass</link>
+		<description>The answer will blow your mind!</description>
+	</item>
+	<title>Vsauce</title>
+	<link>www.youtube.com/vsauce</link>
+	<image>
+		<title>me</title>
+		<link>www/blabla.com/me.png</link>
+		<url>www/blabla.com/me.png</url>
+	</image>
+	<language>English</language>
+	<description>I make science videos</description>
+</channel>
