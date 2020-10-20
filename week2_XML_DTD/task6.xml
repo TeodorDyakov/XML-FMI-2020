@@ -1,31 +1,31 @@
 <?xml version="1.0"?>
 <!DOCTYPE games [
   <!ELEMENT games (game)>
-  <!ELEMENT game (home-team, ex-team,scores,yellows,reds)>
+  <!ELEMENT game (home-team, ex-team,goals,yellows,reds)>
   <!ELEMENT home-team (#PCDATA)>
   <!ELEMENT ex-team (#PCDATA)>
-  <!ELEMENT scores (score*)>
+  <!ELEMENT goals (goal*)>
   <!ELEMENT yellows (player*)>
   <!ELEMENT reds (player*)>
   <!ATTLIST game score CDATA "">
-  <!ELEMENT score (player)>
+  <!ELEMENT goal (player)>
   <!ELEMENT player (#PCDATA)>
-  <!ATTLIST score me CDATA "" 
+  <!ATTLIST goal minute CDATA "" 
   type CDATA ""
   >
 ]>
 <games>
     <game score="1-1">
-         <home-team>Roma</home-team>
-         <ex-team>Lazio</ex-team>
-         <scores>
-            <score me="15">
+           <home-team>Roma</home-team>
+           <ex-team>Lazio</ex-team>
+           <goals>
+              <goal minute="15">
               <player>Klose</player>
-            </score>
-              <score me="85" type="penalty">
+              </goal>
+              <goal minute="85" type="penalty">
               <player>Tox</player>
-            </score>
-         </scores>
+              </goal>
+           </goals>
         <yellows>
            <player>Tox</player>
            <player>Hernanes</player>
