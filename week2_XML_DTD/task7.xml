@@ -20,6 +20,7 @@
 <!ELEMENT link (#PCDATA)>
 <!ELEMENT url (#PCDATA)>
 <!ELEMENT title (#PCDATA)>
+<!ENTITY link "https://upload.wikimedia.org/wikipedia/commons/b/b4/Michael_Stevens_VidCon_2016.jpg">
 ]>
 <channel version = "1.0">
 	<item>
@@ -31,8 +32,8 @@
 	<link>www.youtube.com/vsauce</link>
 	<image>
 		<title>me</title>
-		<link>www/blabla.com/me.png</link>
-		<url>www/blabla.com/me.png</url>
+		<link>&link;</link>
+		<url>&link;</url>
 	</image>
 	<language>English</language>
 	<description>I make science videos</description>

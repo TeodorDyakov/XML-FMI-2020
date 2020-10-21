@@ -7,10 +7,10 @@
   <!ELEMENT goals (goal*)>
   <!ELEMENT yellows (player*)>
   <!ELEMENT reds (player*)>
-  <!ATTLIST game score CDATA "">
+  <!ATTLIST game score CDATA #REQUIRED>
   <!ELEMENT goal (player)>
   <!ELEMENT player (#PCDATA)>
-  <!ATTLIST goal minute CDATA "" 
+  <!ATTLIST goal minute CDATA #REQUIRED 
   type CDATA ""
   >
 ]>
