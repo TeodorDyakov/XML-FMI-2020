@@ -20,6 +20,10 @@
 <!ELEMENT link (#PCDATA)>
 <!ELEMENT url (#PCDATA)>
 <!ELEMENT title (#PCDATA)>
+<!ENTITY test.png SYSTEM "images/test.png" NDATA PNG>
+<!NOTATION jpeg SYSTEM "image/jpeg">
+<!NOTATION jpeg PUBLIC "JPEG">
+
 <!ENTITY link "https://upload.wikimedia.org/wikipedia/commons/b/b4/Michael_Stevens_VidCon_2016.jpg">
 ]>
 <channel version = "1.0">
