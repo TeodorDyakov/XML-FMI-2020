@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<HRmanagement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HRmanagementSystem.xsd">
+<HRManagement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HRmanagementSystem.xsd">
 	<employeeList>
 		<employee>
 			<personal-info>
@@ -12,8 +12,7 @@
 			</contact-info>
 			<contract>
 				<type>безсрочен</type>
-				<signDate>2019-02-01</signDate>
-				<endDate></endDate>
+				<signDate>2019-02-1</signDate>
 				<position>Мрежов Администратор</position>
 				<salary>2000</salary>
 			</contract>
@@ -29,13 +28,14 @@
 				<telephone>0877343434</telephone>
 			</contact-info>
 			<contract>
-				<type duration = "24 months">срочен</type>
-				<signDate>2020-03-06</signDate>
-				<endDate>2022-03-06</endDate>
+				<type>срочен</type>
+				<signDate>2020-03-6</signDate>
+				<duration>2 години</duration>
+				<endDate>2022-03-6</endDate>
 				<position>Човешки ресурси</position>
 				<salary>1500</salary>
 			</contract>
 		</employee>
 
 	</employeeList>
-</HRmanagement>
+</HRManagement>
