@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<HRmanagement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HRmanagementSystem.xsd">
+	<employeeList>
+		<employee>
+			<personal-info>
+				<firstName>Ваньо</firstName>
+				<familyName>Лазаров</familyName>
+			</personal-info>
+			<contact-info>
+				<email-address>i_lazarov@gmail.com</email-address>
+				<telephone>0877965623</telephone>
+			</contact-info>
+			<contract>
+				<type>безсрочен</type>
+				<signDate>2019-02-01</signDate>
+				<endDate></endDate>
+				<position>Мрежов Администратор</position>
+				<salary>2000</salary>
+			</contract>
+		</employee>
+
+		<employee>
+			<personal-info>
+				<firstName>Пепи</firstName>
+				<familyName>Колев</familyName>
+			</personal-info>
+			<contact-info>
+				<email-address>p_kolev@gmail.com</email-address>
+				<telephone>0877343434</telephone>
+			</contact-info>
+			<contract>
+				<type duration = "24 months">срочен</type>
+				<signDate>2020-03-06</signDate>
+				<endDate>2022-03-06</endDate>
+				<position>Човешки ресурси</position>
+				<salary>1500</salary>
+			</contract>
+		</employee>
+
+	</employeeList>
+</HRmanagement>
