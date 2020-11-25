@@ -5,30 +5,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <html>
   <head>
-    <style>
-    #employees {
-      font-family: Arial, Helvetica, sans-serif;
-      border-collapse: collapse;
-      width: 100%;
-    }
-
-    #employees td, #employees th {
-      border: 1px solid #ddd;
-      padding: 8px;
-    }
-
-    #employees tr:nth-child(even){background-color: #f2f2f2;}
-
-    #employees tr:hover {background-color: #ddd;}
-
-    #employees th {
-      padding-top: 12px;
-      padding-bottom: 12px;
-      text-align: left;
-      background-color: #4CAF50;
-      color: white;
-    }
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css"></link>
   </head>
   <body>
     <h2>Employees</h2>
