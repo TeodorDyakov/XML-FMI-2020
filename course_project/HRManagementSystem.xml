@@ -2,8 +2,10 @@
 <HRManagement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HRmanagementSystem.xsd">
 	<employeeList>
 		<employee>
+			<id>1</id>
 			<personal-info>
 				<firstName>Ваньо</firstName>
+				<middle-name>Пенков</middle-name>
 				<familyName>Лазаров</familyName>
 			</personal-info>
 			<contact-info>
@@ -19,8 +21,10 @@
 		</employee>
 
 		<employee>
+			<id>2</id>			
 			<personal-info>
 				<firstName>Пепи</firstName>
+				<middle-name>Пенков</middle-name>
 				<familyName>Колев</familyName>
 			</personal-info>
 			<contact-info>
