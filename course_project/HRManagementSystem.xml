@@ -42,5 +42,108 @@
 			</contract>
 		</employee>
 
+		<employee>
+			<id>2</id>
+			<personal-info>
+				<firstName>Господин</firstName>
+				<secondName>Парцалев</secondName>
+				<familyName>Костов</familyName>
+			</personal-info>
+			<contact-info>
+				<email-address>g_kostov@gmail.com</email-address>
+				<telephone>0888888888</telephone>
+			</contact-info>
+			<contract>
+				<type>срочен</type>
+				<signDate>2014-05-3</signDate>
+				<duration>2 години</duration>
+				<endDate>2022-03-6</endDate>
+				<position>Мениджър</position>
+				<salary>3000</salary>
+			</contract>
+		</employee>
+
+		<employee>
+			<id>2</id>
+			<personal-info>
+				<firstName>Мартин</firstName>
+				<secondName>Хубенов</secondName>
+				<familyName>Кандиларов</familyName>
+			</personal-info>
+			<contact-info>
+				<email-address>m_hubenov@gmail.com</email-address>
+				<telephone>0877789542</telephone>
+			</contact-info>
+			<contract>
+				<type>срочен</type>
+				<signDate>2018-09-1</signDate>
+				<duration>2 години</duration>
+				<endDate>2022-03-6</endDate>
+				<position>Системен администратор</position>
+				<salary>2300</salary>
+			</contract>
+		</employee>
+
+		<employee>
+			<id>2</id>
+			<personal-info>
+				<firstName>Мартин</firstName>
+				<secondName>Хубенов</secondName>
+				<familyName>Кандиларов</familyName>
+			</personal-info>
+			<contact-info>
+				<email-address>m_hubenov@gmail.com</email-address>
+				<telephone>0877789542</telephone>
+			</contact-info>
+			<contract>
+				<type>срочен</type>
+				<signDate>2018-09-1</signDate>
+				<duration>2 години</duration>
+				<endDate>2022-03-6</endDate>
+				<position>Системен администратор</position>
+				<salary>2300</salary>
+			</contract>
+		</employee>
+		<employee>
+			<id>2</id>
+			<personal-info>
+				<firstName>Мартин</firstName>
+				<secondName>Хубенов</secondName>
+				<familyName>Кандиларов</familyName>
+			</personal-info>
+			<contact-info>
+				<email-address>m_hubenov@gmail.com</email-address>
+				<telephone>0877789542</telephone>
+			</contact-info>
+			<contract>
+				<type>срочен</type>
+				<signDate>2018-09-1</signDate>
+				<duration>2 години</duration>
+				<endDate>2022-03-6</endDate>
+				<position>Системен администратор</position>
+				<salary>2300</salary>
+			</contract>
+		</employee>
+		<employee>
+			<id>2</id>
+			<personal-info>
+				<firstName>Мартин</firstName>
+				<secondName>Хубенов</secondName>
+				<familyName>Кандиларов</familyName>
+			</personal-info>
+			<contact-info>
+				<email-address>m_hubenov@gmail.com</email-address>
+				<telephone>0877789542</telephone>
+			</contact-info>
+			<contract>
+				<type>срочен</type>
+				<signDate>2018-09-1</signDate>
+				<duration>2 години</duration>
+				<endDate>2022-03-6</endDate>
+				<position>Системен администратор</position>
+				<salary>2300</salary>
+			</contract>
+		</employee>
+
 	</employeeList>
 </HRManagement>
