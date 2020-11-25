@@ -1,12 +1,12 @@
-<?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="xslt.xsl"?>
-<HRManagement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HRmanagementSystem.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="HRМanagementSystem.xsl"?>
+<HRManagement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HRМanagementSystem.xsd">
 	<employeeList>
 		<employee>
 			<id>1</id>
 			<personal-info>
 				<firstName>Ваньо</firstName>
-				<middle-name>Пенков</middle-name>
+				<secondName>Пенков</secondName>
 				<familyName>Лазаров</familyName>
 			</personal-info>
 			<contact-info>
@@ -22,10 +22,10 @@
 		</employee>
 
 		<employee>
-			<id>2</id>			
+			<id>2</id>
 			<personal-info>
 				<firstName>Пепи</firstName>
-				<middle-name>Пенков</middle-name>
+				<secondName>Крачолов</secondName>
 				<familyName>Колев</familyName>
 			</personal-info>
 			<contact-info>
