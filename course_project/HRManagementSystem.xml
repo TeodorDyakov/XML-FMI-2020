@@ -43,7 +43,7 @@
 		</employee>
 
 		<employee>
-			<id>2</id>
+			<id>3</id>
 			<personal-info>
 				<firstName>Господин</firstName>
 				<secondName>Парцалев</secondName>
@@ -64,7 +64,7 @@
 		</employee>
 
 		<employee>
-			<id>2</id>
+			<id>4</id>
 			<personal-info>
 				<firstName>Мартин</firstName>
 				<secondName>Хубенов</secondName>
@@ -144,6 +144,13 @@
 				<salary>2300</salary>
 			</contract>
 		</employee>
-
 	</employeeList>
+
+	<departmentList>
+		<departmentInfo>
+			<departmentName>Техническо обслужване</departmentName>
+			<dep depRef="Северозападен регион" regIdRef="201"/>
+		</departmentInfo>
+	</departmentList>
+	
 </HRManagement>
