@@ -14,11 +14,15 @@
 
 
 .details {
-  width: 65%;
-  /*float:left;*/
-  columns: 100px 2;
-  column-gap: 40px;
+  width: 30%;
+  float:left;
 }
+
+.contract {
+  width: 30%;
+  float:left;
+}
+
 
 .pp {
   border-radius: 50%;
