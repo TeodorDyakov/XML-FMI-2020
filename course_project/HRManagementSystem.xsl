@@ -7,7 +7,17 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css"></link>
   </head>
+
+
   <body>
+    <div class="topnav">
+  <a class="active" href="#home">Служители</a>
+  <a href="#news">Отдели</a>
+  <a href="#contact">Позиции</a>
+</div>
+
+<div style="padding-left:16px">
+</div>
       <xsl:for-each select="HRManagement/employeeList/employee">
         <div  class = "out">
           <div class = "column"><img class = "pp" src="profilePic.webp"/> </div>
@@ -29,7 +39,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <li><strong>Срок: </strong><xsl:value-of select="contract/duration"/></li>
             <li><strong>Край: </strong><xsl:value-of select="contract/endDate"/></li>
           </div>
-          
+
         </div>
       </xsl:for-each>
   </body>
