@@ -3,7 +3,7 @@
 <HRManagement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="HRМanagementSystem.xsd">
 	<employeeList>
 		<employee>
-			<id>1</id>
+			<id>e1</id>
 			<depId>101</depId>
 			<personal-info>
 				<firstName>Ваньо</firstName>
@@ -23,7 +23,7 @@
 		</employee>
 
 		<employee>
-			<id>2</id>
+			<id>e2</id>
 			<depId>102</depId>
 			<personal-info>
 				<firstName>Пепи</firstName>
@@ -45,7 +45,7 @@
 		</employee>
 
 		<employee>
-			<id>3</id>
+			<id>e3</id>
 			<depId>101</depId>
 			<personal-info>
 				<firstName>Господин</firstName>
@@ -67,7 +67,7 @@
 		</employee>
 
 		<employee>
-			<id>4</id>
+			<id>e4</id>
 			<depId>101</depId>
 			<personal-info>
 				<firstName>Мартин</firstName>
@@ -89,7 +89,7 @@
 		</employee>
 
 		<employee>
-			<id>2</id>
+			<id>e5</id>
 			<depId>101</depId>
 			<personal-info>
 				<firstName>Мартин</firstName>
@@ -110,7 +110,7 @@
 			</contract>
 		</employee>
 		<employee>
-			<id>2</id>
+			<id>e6</id>
 			<depId>101</depId>
 			<personal-info>
 				<firstName>Мартин</firstName>
@@ -131,7 +131,7 @@
 			</contract>
 		</employee>
 		<employee>
-			<id>2</id>
+			<id>e7</id>
 			<depId>102</depId>
 			<personal-info>
 				<firstName>Мартин</firstName>
