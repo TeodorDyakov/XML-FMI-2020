@@ -16,7 +16,7 @@
 			</contact-info>
 			<contract>
 				<type>безсрочен</type>
-				<signDate>2019-02-1</signDate>
+				<signDate>2018-01-06</signDate>
 				<position>Мрежов Администратор</position>
 				<salary>2000</salary>
 			</contract>
@@ -36,9 +36,9 @@
 			</contact-info>
 			<contract>
 				<type>срочен</type>
-				<signDate>2020-03-6</signDate>
+				<signDate>2020-03-26</signDate>
 				<duration>2 години</duration>
-				<endDate>2022-03-6</endDate>
+				<endDate>2022-03-26</endDate>
 				<position>Човешки ресурси</position>
 				<salary>1500</salary>
 			</contract>
@@ -58,7 +58,7 @@
 			</contact-info>
 			<contract>
 				<type>срочен</type>
-				<signDate>2014-05-3</signDate>
+				<signDate>2020-03-06</signDate>
 				<duration>2 години</duration>
 				<endDate>2022-03-6</endDate>
 				<position>Мениджър</position>
@@ -68,7 +68,7 @@
 
 		<employee>
 			<id>e4</id>
-			<depId>101</depId>
+			<depId>103</depId>
 			<personal-info>
 				<firstName>Мартин</firstName>
 				<secondName>Хубенов</secondName>
@@ -80,10 +80,10 @@
 			</contact-info>
 			<contract>
 				<type>срочен</type>
-				<signDate>2018-09-1</signDate>
+				<signDate>2020-10-26</signDate>
 				<duration>2 години</duration>
-				<endDate>2022-03-6</endDate>
-				<position>Системен администратор</position>
+				<endDate>2022-10-26</endDate>
+				<position>Електроинженер</position>
 				<salary>2300</salary>
 			</contract>
 		</employee>
@@ -92,20 +92,20 @@
 			<id>e5</id>
 			<depId>101</depId>
 			<personal-info>
-				<firstName>Мартин</firstName>
-				<secondName>Хубенов</secondName>
-				<familyName>Кандиларов</familyName>
+				<firstName>Лисица</firstName>
+				<secondName>Костадинова</secondName>
+				<familyName>Малкова</familyName>
 			</personal-info>
 			<contact-info>
-				<email-address>m_hubenov@gmail.com</email-address>
+				<email-address>l_malkova@gmail.com</email-address>
 				<telephone>0877789542</telephone>
 			</contact-info>
 			<contract>
 				<type>срочен</type>
-				<signDate>2018-09-1</signDate>
-				<duration>2 години</duration>
-				<endDate>2022-03-6</endDate>
-				<position>Системен администратор</position>
+				<signDate>-2019-10-26</signDate>
+				<duration>5 години</duration>
+				<endDate>2024-10-26</endDate>
+				<position>Електротехник</position>
 				<salary>2300</salary>
 			</contract>
 		</employee>
@@ -113,41 +113,37 @@
 			<id>e6</id>
 			<depId>101</depId>
 			<personal-info>
-				<firstName>Мартин</firstName>
-				<secondName>Хубенов</secondName>
-				<familyName>Кандиларов</familyName>
+				<firstName>Черешка</firstName>
+				<secondName>Николова</secondName>
+				<familyName>Пецева</familyName>
 			</personal-info>
 			<contact-info>
-				<email-address>m_hubenov@gmail.com</email-address>
+				<email-address>ch_peceva@abv.com</email-address>
 				<telephone>0877789542</telephone>
 			</contact-info>
 			<contract>
-				<type>срочен</type>
-				<signDate>2018-09-1</signDate>
-				<duration>2 години</duration>
-				<endDate>2022-03-6</endDate>
-				<position>Системен администратор</position>
+				<type>безсрочен</type>
+				<signDate>-2020-03-06</signDate>
+				<position>Електротехник</position>
 				<salary>2300</salary>
 			</contract>
 		</employee>
 		<employee>
 			<id>e7</id>
-			<depId>102</depId>
+			<depId>103</depId>
 			<personal-info>
-				<firstName>Мартин</firstName>
-				<secondName>Хубенов</secondName>
-				<familyName>Кандиларов</familyName>
+				<firstName>Гълъбин</firstName>
+				<secondName>Соев</secondName>
+				<familyName>Граждански</familyName>
 			</personal-info>
 			<contact-info>
 				<email-address>m_hubenov@gmail.com</email-address>
 				<telephone>0877789542</telephone>
 			</contact-info>
 			<contract>
-				<type>срочен</type>
-				<signDate>2018-09-1</signDate>
-				<duration>2 години</duration>
-				<endDate>2022-03-6</endDate>
-				<position>Системен администратор</position>
+				<type>по заместване</type>
+				<signDate>2020-10-26</signDate>
+				<position>Строителен инженер</position>
 				<salary>2300</salary>
 			</contract>
 		</employee>
@@ -160,8 +156,14 @@
 		</departmentInfo>
 		<departmentInfo>
 			<depId>102</depId>
-			<departmentName>~Човешки ресурси</departmentName>
+			<departmentName>Човешки ресурси</departmentName>
 		</departmentInfo>
+
+		<departmentInfo>
+			<depId>103</depId>
+			<departmentName>Инженерество</departmentName>
+		</departmentInfo>
+
 	</departmentList>
 	
 </HRManagement>
