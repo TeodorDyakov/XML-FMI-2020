@@ -51,8 +51,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
           <li><strong>Позиция: </strong><xsl:value-of select="contract/position"/></li>
           <li><strong>Вид: </strong><xsl:value-of select="contract/type"/></li>
           <li><strong>Начало: </strong><xsl:value-of select="contract/signDate"/></li>
-          <li><strong>Срок: </strong><xsl:value-of select="contract/duration"/></li>
-          <li><strong>Край: </strong><xsl:value-of select="contract/endDate"/></li>
+          <xsl:if test="contract/duration">
+            <li><strong>Срок: </strong><xsl:value-of select="contract/duration"/></li>
+          </xsl:if>
+          <xsl:if test="contract/duration">
+            <li><strong>Край: </strong><xsl:value-of select="contract/endDate"/></li>
+          </xsl:if>
           <li><strong>Заплата: </strong><xsl:value-of select="contract/salary"/> лв.</li>
         </div>
 
@@ -92,14 +96,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
           <img class = "pp" src="zuck.jpeg"/>
         </div>
 
-      </div>
-    </xsl:for-each>
-  </div>
-
-  <div id = "departments">
-    <xsl:for-each select="HRManagement/departmentList/departmentInfo">
-      <div  class = "out">
-        <xsl:value-of select="departmentName"/>
       </div>
     </xsl:for-each>
   </div>

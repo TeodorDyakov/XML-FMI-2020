@@ -1,3 +1,4 @@
 #!/bin/bash
 xmllint --schema HRManagementSystem.xsd HRManagementSystem.xml --noout
-xsltproc HRManagementSystem.xsl HRManagementSystem.xml > HRManangementSystem.html
+xsltproc slujiteli.xsl HRManagementSystem.xml > slujiteli.html
+xsltproc otdeli.xsl HRManagementSystem.xml > otdeli.html

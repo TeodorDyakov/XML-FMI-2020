@@ -149,7 +149,9 @@
 	<departmentList>
 		<departmentInfo>
 			<departmentName>Техническо обслужване</departmentName>
-			<dep depRef="Северозападен регион" regIdRef="201"/>
+		</departmentInfo>
+		<departmentInfo>
+			<departmentName>~Човешки ресурси</departmentName>
 		</departmentInfo>
 	</departmentList>
 	

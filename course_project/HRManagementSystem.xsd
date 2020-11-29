@@ -67,8 +67,7 @@
         <xs:element name = "departmentInfo">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="email-address" type="xs:string"/>
-                <xs:element name="telephone" type="xs:string"/>
+                <xs:element name="departmentName" type="xs:string"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
