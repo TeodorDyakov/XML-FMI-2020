@@ -37,9 +37,9 @@ body{
 }
 
 
-.pp {
+.profilePicture {
   border-radius: 50%;
-    float: right;
+  float: right;
   width: 200px;
   height: 200px;
 }

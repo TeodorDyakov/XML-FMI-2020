@@ -61,7 +61,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         </div>
 
         <div class = "column">
-          <img class = "pp" src="zuck.jpeg"/>
+          <img class = "profilePicture" src="zuck.jpeg"/>
         </div>
 
       </div>
@@ -97,7 +97,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         </div>
 
         <div class = "column">
-          <img class = "pp" src="zuck.jpeg"/>
+          <img class = "profilePicture" src="zuck.jpeg"/>
         </div>
 
       </div>

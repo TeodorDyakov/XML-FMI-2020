@@ -65,13 +65,28 @@
         </xs:complexType>
     </xs:element>
 
-        <xs:element name = "departmentInfo">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="depId" type="xs:string"/>
-                <xs:element name="departmentName" type="xs:string"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
+    <xs:element name = "departmentInfo">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="depId" type="xs:string"/>
+            <xs:element name="departmentName" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
 
+    <xs:key name="departmentKey">
+        <xs:selector xpath="HRManagement/departmentList/departmentInfo"/>
+        <xs:field xpath="depId"/>
+    </xs:key>
+    
+    <xs:keyref name="depRef" refer="departmentKey">
+        <xs:selector xpath="HRManagement/employeeList/employee"/>
+        <xs:field xpath="depId"/>
+    </xs:keyref>
+
+    <xs:unique name="depIdUnique">
+        <xs:selector xpath ="HRManagement/departmentList/departmentInfo"/>
+        <xs:field xpath ="depId"/>
+    </xs:unique>
+
+    </xs:element>
 </xs:schema>
