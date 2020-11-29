@@ -10,6 +10,13 @@
                       </xs:sequence>  
                     </xs:complexType>
                 </xs:element>
+                <xs:element name="departmentList" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref = "departmentInfo" maxOccurs = "unbounded"/>
+                      </xs:sequence>  
+                    </xs:complexType>
+                </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -53,6 +60,15 @@
                 <xs:element name="endDate" type="xs:string" minOccurs = "0" maxOccurs = "1"/>
                 <xs:element name="position" type="xs:string"/>
                 <xs:element name="salary" type="xs:integer"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+        <xs:element name = "departmentInfo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="email-address" type="xs:string"/>
+                <xs:element name="telephone" type="xs:string"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
