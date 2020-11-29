@@ -4,6 +4,7 @@
 	<employeeList>
 		<employee>
 			<id>1</id>
+			<depId>101</depId>
 			<personal-info>
 				<firstName>Ваньо</firstName>
 				<secondName>Пенков</secondName>
@@ -23,6 +24,7 @@
 
 		<employee>
 			<id>2</id>
+			<depId>102</depId>
 			<personal-info>
 				<firstName>Пепи</firstName>
 				<secondName>Крачолов</secondName>
@@ -44,6 +46,7 @@
 
 		<employee>
 			<id>3</id>
+			<depId>101</depId>
 			<personal-info>
 				<firstName>Господин</firstName>
 				<secondName>Парцалев</secondName>
@@ -65,6 +68,7 @@
 
 		<employee>
 			<id>4</id>
+			<depId>101</depId>
 			<personal-info>
 				<firstName>Мартин</firstName>
 				<secondName>Хубенов</secondName>
@@ -86,6 +90,7 @@
 
 		<employee>
 			<id>2</id>
+			<depId>101</depId>
 			<personal-info>
 				<firstName>Мартин</firstName>
 				<secondName>Хубенов</secondName>
@@ -106,6 +111,7 @@
 		</employee>
 		<employee>
 			<id>2</id>
+			<depId>101</depId>
 			<personal-info>
 				<firstName>Мартин</firstName>
 				<secondName>Хубенов</secondName>
@@ -126,6 +132,7 @@
 		</employee>
 		<employee>
 			<id>2</id>
+			<depId>101</depId>
 			<personal-info>
 				<firstName>Мартин</firstName>
 				<secondName>Хубенов</secondName>
@@ -148,9 +155,11 @@
 
 	<departmentList>
 		<departmentInfo>
+			<depId>101</depId>
 			<departmentName>Техническо обслужване</departmentName>
 		</departmentInfo>
 		<departmentInfo>
+			<depId>102</depId>
 			<departmentName>~Човешки ресурси</departmentName>
 		</departmentInfo>
 	</departmentList>
