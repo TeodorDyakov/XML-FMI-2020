@@ -38,31 +38,32 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <div  class = "out">
         
         <div class = "details">
-          <h>Лични данни:</h>
-          <li><strong>Име: </strong> <xsl:value-of select="personal-info/firstName"/></li>
-          <li><strong>Презиме: </strong><xsl:value-of select="personal-info/secondName"/></li>
-          <li><strong>Фамилия: </strong><xsl:value-of select="personal-info/familyName"/></li>
-          <li><strong>e-mail: </strong><xsl:value-of select="contact-info/email-address"/></li>
-          <li><strong>Телефон: </strong><xsl:value-of select="contact-info/telephone"/></li>
+          
+          <ul>Лични данни:
+            <li><strong>Име: </strong> <xsl:value-of select="personal-info/firstName"/></li>
+            <li><strong>Презиме: </strong><xsl:value-of select="personal-info/secondName"/></li>
+            <li><strong>Фамилия: </strong><xsl:value-of select="personal-info/familyName"/></li>
+            <li><strong>e-mail: </strong><xsl:value-of select="contact-info/email-address"/></li>
+            <li><strong>Телефон: </strong><xsl:value-of select="contact-info/telephone"/></li>
+        </ul>
         </div>
 
         <div class = "contract">
-          <h>Договор:</h>
-          <li><strong>Позиция: </strong><xsl:value-of select="contract/position"/></li>
-          <li><strong>Вид: </strong><xsl:value-of select="contract/type"/></li>
-          <li><strong>Начало: </strong><xsl:value-of select="contract/signDate"/></li>
-          <xsl:if test="contract/duration">
-            <li><strong>Срок: </strong><xsl:value-of select="contract/duration"/></li>
-          </xsl:if>
-          <xsl:if test="contract/duration">
-            <li><strong>Край: </strong><xsl:value-of select="contract/endDate"/></li>
-          </xsl:if>
-          <li><strong>Заплата: </strong><xsl:value-of select="contract/salary"/> лв.</li>
+          <ul>Договор:
+            <li><strong>Позиция: </strong><xsl:value-of select="contract/position"/></li>
+            <li><strong>Вид: </strong><xsl:value-of select="contract/type"/></li>
+            <li><strong>Начало: </strong><xsl:value-of select="contract/signDate"/></li>
+             <xsl:if test="contract/duration">
+              <li><strong>Срок: </strong><xsl:value-of select="contract/duration"/></li>
+            </xsl:if>
+            <xsl:if test="contract/duration">
+              <li><strong>Край: </strong><xsl:value-of select="contract/endDate"/></li>
+            </xsl:if>
+            <li><strong>Заплата: </strong><xsl:value-of select="contract/salary"/> лв.</li>
+          </ul>
         </div>
 
-        <div class = "column">
-          <img class = "profilePicture" src="{id}.jpg"/>
-        </div>
+          <img class = "profilePicture" src="profilePics/{id}.jpg"/>
 
       </div>
     </xsl:for-each>
@@ -74,30 +75,33 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <div  class = "out">
         
         <div class = "details">
-          <h>Лични данни:</h>
-          <li><strong>Име: </strong> <xsl:value-of select="personal-info/firstName"/></li>
-          <li><strong>Презиме: </strong><xsl:value-of select="personal-info/secondName"/></li>
-          <li><strong>Фамилия: </strong><xsl:value-of select="personal-info/familyName"/></li>
-          <li><strong>e-mail: </strong><xsl:value-of select="contact-info/email-address"/></li>
-          <li><strong>Телефон: </strong><xsl:value-of select="contact-info/telephone"/></li>
+          <ul>Лични данни:
+            <li><strong>Име: </strong> <xsl:value-of select="personal-info/firstName"/></li>
+            <li><strong>Презиме: </strong><xsl:value-of select="personal-info/secondName"/></li>
+            <li><strong>Фамилия: </strong><xsl:value-of select="personal-info/familyName"/></li>
+            <li><strong>e-mail: </strong><xsl:value-of select="contact-info/email-address"/></li>
+            <li><strong>Телефон: </strong><xsl:value-of select="contact-info/telephone"/></li>
+        </ul>
         </div>
 
+
         <div class = "contract">
-          <h>Договор:</h>
-          <li><strong>Позиция: </strong><xsl:value-of select="contract/position"/></li>
-          <li><strong>Вид: </strong><xsl:value-of select="contract/type"/></li>
-          <li><strong>Начало: </strong><xsl:value-of select="contract/signDate"/></li>
-           <xsl:if test="contract/duration">
-            <li><strong>Срок: </strong><xsl:value-of select="contract/duration"/></li>
-          </xsl:if>
-          <xsl:if test="contract/duration">
-            <li><strong>Край: </strong><xsl:value-of select="contract/endDate"/></li>
-          </xsl:if>
-          <li><strong>Заплата: </strong><xsl:value-of select="contract/salary"/> лв.</li>
+          <ul>Договор:
+            <li><strong>Позиция: </strong><xsl:value-of select="contract/position"/></li>
+            <li><strong>Вид: </strong><xsl:value-of select="contract/type"/></li>
+            <li><strong>Начало: </strong><xsl:value-of select="contract/signDate"/></li>
+             <xsl:if test="contract/duration">
+              <li><strong>Срок: </strong><xsl:value-of select="contract/duration"/></li>
+            </xsl:if>
+            <xsl:if test="contract/duration">
+              <li><strong>Край: </strong><xsl:value-of select="contract/endDate"/></li>
+            </xsl:if>
+            <li><strong>Заплата: </strong><xsl:value-of select="contract/salary"/> лв.</li>
+          </ul>
         </div>
 
         <div class = "column">
-          <img class = "profilePicture" src="{id}.jpg"/>
+          <img class = "profilePicture" src="profilePics/{id}.jpg"/>
         </div>
 
       </div>
