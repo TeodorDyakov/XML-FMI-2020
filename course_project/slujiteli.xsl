@@ -10,13 +10,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <script>
     function sortBySalary() {
-      document.getElementById('sorted').style.display = 'inline';
-      document.getElementById('unsorted').style.display = 'none';
+      document.getElementById('sortedSalary').style.display = 'inline';
+      document.getElementById('sortedName').style.display = 'none';
     };
 
     function sortByName() {
-      document.getElementById('sorted').style.display = 'none';
-      document.getElementById('unsorted').style.display = 'inline';
+      document.getElementById('sortedSalary').style.display = 'none';
+      document.getElementById('sortedName').style.display = 'inline';
     };
 
   </script>
@@ -24,17 +24,20 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <div class="topnav">
       <a href="slujiteli.html">Служители</a>
       <a href="otdeli.html">Отдели</a>
-      <a href="#pozicii">Позиции</a>
+<!--       <a href="#pozicii">Позиции</a> -->
     </div>
 
   <div style="padding-left:16px"></div>
-  
-  <button class="button" onclick="sortBySalary();">Сортирай по заплата</button>
-  <button class="button" onclick="sortByName();">Сортирай по име</button>
-  
-  <div id = "sorted">
+
+  <div id="sortButtons">
+    <button class="button" onclick="sortBySalary();">Сортирай по заплата</button>
+    <button class="button" onclick="sortByName();">Сортирай по име</button>
+  </div>
+
+  <div id = "sortedSalary">
     <xsl:for-each select="HRManagement/employeeList/employee">
-    <xsl:sort select="contract/salary"></xsl:sort>
+    <xsl:sort select="contract/salary" order = "descending">
+    </xsl:sort>
       <div  class = "out">
         
         <div class = "details">
@@ -50,7 +53,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
         <div class = "contract">
           <ul>Договор:
-            <li><strong>Позиция: </strong><xsl:value-of select="contract/position"/></li>
             <li><strong>Вид: </strong><xsl:value-of select="contract/type"/></li>
             <li><strong>Начало: </strong><xsl:value-of select="contract/signDate"/></li>
              <xsl:if test="contract/duration">
@@ -59,6 +61,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <xsl:if test="contract/duration">
               <li><strong>Край: </strong><xsl:value-of select="contract/endDate"/></li>
             </xsl:if>
+            <li><strong>Позиция: </strong><xsl:value-of select="contract/position"/></li>
             <li><strong>Заплата: </strong><xsl:value-of select="contract/salary"/> лв.</li>
           </ul>
         </div>
@@ -69,7 +72,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </xsl:for-each>
   </div>
 
-  <div id = "unsorted">
+  <div id = "sortedName">
     <xsl:for-each select="HRManagement/employeeList/employee">
     <xsl:sort select="personal-info/firstName"></xsl:sort>
       <div  class = "out">

@@ -12,7 +12,7 @@
 			</personal-info>
 			<contact-info>
 				<email-address>i_lazarov@gmail.com</email-address>
-				<telephone>0877965623</telephone>
+				<telephone>0877-96-56-23</telephone>
 			</contact-info>
 			<contract>
 				<type>безсрочен</type>
@@ -32,7 +32,7 @@
 			</personal-info>
 			<contact-info>
 				<email-address>p_kolev@gmail.com</email-address>
-				<telephone>0877343434</telephone>
+				<telephone>0877-34-34-34</telephone>
 			</contact-info>
 			<contract>
 				<type>срочен</type>
@@ -54,13 +54,13 @@
 			</personal-info>
 			<contact-info>
 				<email-address>g_kostov@gmail.com</email-address>
-				<telephone>0888888888</telephone>
+				<telephone>0888-88-88-88</telephone>
 			</contact-info>
 			<contract>
 				<type>срочен</type>
 				<signDate>2020-03-06</signDate>
 				<duration>2 години</duration>
-				<endDate>2022-03-6</endDate>
+				<endDate>2022-03-06</endDate>
 				<position>Мениджър</position>
 				<salary>3000</salary>
 			</contract>
@@ -76,7 +76,7 @@
 			</personal-info>
 			<contact-info>
 				<email-address>m_hubenov@gmail.com</email-address>
-				<telephone>0877789542</telephone>
+				<telephone>0877-78-95-42</telephone>
 			</contact-info>
 			<contract>
 				<type>срочен</type>
@@ -98,7 +98,7 @@
 			</personal-info>
 			<contact-info>
 				<email-address>l_malkova@gmail.com</email-address>
-				<telephone>0877789542</telephone>
+				<telephone>0877-78-95-42</telephone>
 			</contact-info>
 			<contract>
 				<type>срочен</type>
@@ -119,7 +119,7 @@
 			</personal-info>
 			<contact-info>
 				<email-address>ch_peceva@abv.com</email-address>
-				<telephone>0877789542</telephone>
+				<telephone>0877-78-95-42</telephone>
 			</contact-info>
 			<contract>
 				<type>безсрочен</type>
@@ -138,7 +138,7 @@
 			</personal-info>
 			<contact-info>
 				<email-address>m_hubenov@gmail.com</email-address>
-				<telephone>0877789542</telephone>
+				<telephone>0877-78-95-42</telephone>
 			</contact-info>
 			<contract>
 				<type>по заместване</type>
@@ -153,15 +153,18 @@
 		<departmentInfo>
 			<depId>101</depId>
 			<departmentName>Техническо обслужване</departmentName>
+			<leaderId>e1</leaderId>
 		</departmentInfo>
 		<departmentInfo>
 			<depId>102</depId>
 			<departmentName>Човешки ресурси</departmentName>
+			<leaderId>e1</leaderId>
 		</departmentInfo>
 
 		<departmentInfo>
 			<depId>103</depId>
 			<departmentName>Инженерество</departmentName>
+			<leaderId>e1</leaderId>
 		</departmentInfo>
 
 	</departmentList>

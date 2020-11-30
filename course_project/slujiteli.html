@@ -5,74 +5,52 @@
 </head>
 <script>
     function sortBySalary() {
-      document.getElementById('sorted').style.display = 'inline';
-      document.getElementById('unsorted').style.display = 'none';
+      document.getElementById('sortedSalary').style.display = 'inline';
+      document.getElementById('sortedName').style.display = 'none';
     };
 
     function sortByName() {
-      document.getElementById('sorted').style.display = 'none';
-      document.getElementById('unsorted').style.display = 'inline';
+      document.getElementById('sortedSalary').style.display = 'none';
+      document.getElementById('sortedName').style.display = 'inline';
     };
 
   </script><body>
 <div class="topnav">
-<a href="slujiteli.html">Служители</a><a href="otdeli.html">Отдели</a><a href="#pozicii">Позиции</a>
+<a href="slujiteli.html">Служители</a><a href="otdeli.html">Отдели</a>
 </div>
 <div style="padding-left:16px"></div>
-<button class="button" onclick="sortBySalary();">Сортирай по заплата</button><button class="button" onclick="sortByName();">Сортирай по име</button><div id="sorted">
+<div id="sortButtons">
+<button class="button" onclick="sortBySalary();">Сортирай по заплата</button><button class="button" onclick="sortByName();">Сортирай по име</button>
+</div>
+<div id="sortedSalary">
 <div class="out">
 <div class="details"><ul>Лични данни:
             <li>
-<strong>Име: </strong>Пепи</li>
+<strong>Име: </strong>Господин</li>
 <li>
-<strong>Презиме: </strong>Крачолов</li>
+<strong>Презиме: </strong>Парцалев</li>
 <li>
-<strong>Фамилия: </strong>Колев</li>
+<strong>Фамилия: </strong>Костов</li>
 <li>
-<strong>e-mail: </strong>p_kolev@gmail.com</li>
+<strong>e-mail: </strong>g_kostov@gmail.com</li>
 <li>
-<strong>Телефон: </strong>0877343434</li>
+<strong>Телефон: </strong>0888-88-88-88</li>
 </ul></div>
 <div class="contract"><ul>Договор:
             <li>
-<strong>Позиция: </strong>Човешки ресурси</li>
-<li>
 <strong>Вид: </strong>срочен</li>
 <li>
-<strong>Начало: </strong>2020-03-26</li>
+<strong>Начало: </strong>2020-03-06</li>
 <li>
 <strong>Срок: </strong>2 години</li>
 <li>
-<strong>Край: </strong>2022-03-26</li>
+<strong>Край: </strong>2022-03-06</li>
 <li>
-<strong>Заплата: </strong>1500 лв.</li>
+<strong>Позиция: </strong>Мениджър</li>
+<li>
+<strong>Заплата: </strong>3000 лв.</li>
 </ul></div>
-<img class="profilePicture" src="profilePics/e2.jpg">
-</div>
-<div class="out">
-<div class="details"><ul>Лични данни:
-            <li>
-<strong>Име: </strong>Ваньо</li>
-<li>
-<strong>Презиме: </strong>Пенков</li>
-<li>
-<strong>Фамилия: </strong>Лазаров</li>
-<li>
-<strong>e-mail: </strong>i_lazarov@gmail.com</li>
-<li>
-<strong>Телефон: </strong>0877965623</li>
-</ul></div>
-<div class="contract"><ul>Договор:
-            <li>
-<strong>Позиция: </strong>Мрежов Администратор</li>
-<li>
-<strong>Вид: </strong>безсрочен</li>
-<li>
-<strong>Начало: </strong>2018-01-06</li>
-<li>
-<strong>Заплата: </strong>2000 лв.</li>
-</ul></div>
-<img class="profilePicture" src="profilePics/e1.jpg">
+<img class="profilePicture" src="profilePics/e3.jpg">
 </div>
 <div class="out">
 <div class="details"><ul>Лични данни:
@@ -85,12 +63,10 @@
 <li>
 <strong>e-mail: </strong>m_hubenov@gmail.com</li>
 <li>
-<strong>Телефон: </strong>0877789542</li>
+<strong>Телефон: </strong>0877-78-95-42</li>
 </ul></div>
 <div class="contract"><ul>Договор:
             <li>
-<strong>Позиция: </strong>Електроинженер</li>
-<li>
 <strong>Вид: </strong>срочен</li>
 <li>
 <strong>Начало: </strong>2020-10-26</li>
@@ -98,6 +74,8 @@
 <strong>Срок: </strong>2 години</li>
 <li>
 <strong>Край: </strong>2022-10-26</li>
+<li>
+<strong>Позиция: </strong>Електроинженер</li>
 <li>
 <strong>Заплата: </strong>2300 лв.</li>
 </ul></div>
@@ -114,12 +92,10 @@
 <li>
 <strong>e-mail: </strong>l_malkova@gmail.com</li>
 <li>
-<strong>Телефон: </strong>0877789542</li>
+<strong>Телефон: </strong>0877-78-95-42</li>
 </ul></div>
 <div class="contract"><ul>Договор:
             <li>
-<strong>Позиция: </strong>Електротехник</li>
-<li>
 <strong>Вид: </strong>срочен</li>
 <li>
 <strong>Начало: </strong>-2019-10-26</li>
@@ -127,6 +103,8 @@
 <strong>Срок: </strong>5 години</li>
 <li>
 <strong>Край: </strong>2024-10-26</li>
+<li>
+<strong>Позиция: </strong>Електротехник</li>
 <li>
 <strong>Заплата: </strong>2300 лв.</li>
 </ul></div>
@@ -143,15 +121,15 @@
 <li>
 <strong>e-mail: </strong>ch_peceva@abv.com</li>
 <li>
-<strong>Телефон: </strong>0877789542</li>
+<strong>Телефон: </strong>0877-78-95-42</li>
 </ul></div>
 <div class="contract"><ul>Договор:
             <li>
-<strong>Позиция: </strong>Електротехник</li>
-<li>
 <strong>Вид: </strong>безсрочен</li>
 <li>
 <strong>Начало: </strong>-2020-03-06</li>
+<li>
+<strong>Позиция: </strong>Електротехник</li>
 <li>
 <strong>Заплата: </strong>2300 лв.</li>
 </ul></div>
@@ -168,51 +146,20 @@
 <li>
 <strong>e-mail: </strong>m_hubenov@gmail.com</li>
 <li>
-<strong>Телефон: </strong>0877789542</li>
+<strong>Телефон: </strong>0877-78-95-42</li>
 </ul></div>
 <div class="contract"><ul>Договор:
             <li>
-<strong>Позиция: </strong>Строителен инженер</li>
-<li>
 <strong>Вид: </strong>по заместване</li>
 <li>
 <strong>Начало: </strong>2020-10-26</li>
+<li>
+<strong>Позиция: </strong>Строителен инженер</li>
 <li>
 <strong>Заплата: </strong>2300 лв.</li>
 </ul></div>
 <img class="profilePicture" src="profilePics/e7.jpg">
 </div>
-<div class="out">
-<div class="details"><ul>Лични данни:
-            <li>
-<strong>Име: </strong>Господин</li>
-<li>
-<strong>Презиме: </strong>Парцалев</li>
-<li>
-<strong>Фамилия: </strong>Костов</li>
-<li>
-<strong>e-mail: </strong>g_kostov@gmail.com</li>
-<li>
-<strong>Телефон: </strong>0888888888</li>
-</ul></div>
-<div class="contract"><ul>Договор:
-            <li>
-<strong>Позиция: </strong>Мениджър</li>
-<li>
-<strong>Вид: </strong>срочен</li>
-<li>
-<strong>Начало: </strong>2020-03-06</li>
-<li>
-<strong>Срок: </strong>2 години</li>
-<li>
-<strong>Край: </strong>2022-03-6</li>
-<li>
-<strong>Заплата: </strong>3000 лв.</li>
-</ul></div>
-<img class="profilePicture" src="profilePics/e3.jpg">
-</div>
-</div>
-<div id="unsorted">
 <div class="out">
 <div class="details"><ul>Лични данни:
             <li>
@@ -224,7 +171,63 @@
 <li>
 <strong>e-mail: </strong>i_lazarov@gmail.com</li>
 <li>
-<strong>Телефон: </strong>0877965623</li>
+<strong>Телефон: </strong>0877-96-56-23</li>
+</ul></div>
+<div class="contract"><ul>Договор:
+            <li>
+<strong>Вид: </strong>безсрочен</li>
+<li>
+<strong>Начало: </strong>2018-01-06</li>
+<li>
+<strong>Позиция: </strong>Мрежов Администратор</li>
+<li>
+<strong>Заплата: </strong>2000 лв.</li>
+</ul></div>
+<img class="profilePicture" src="profilePics/e1.jpg">
+</div>
+<div class="out">
+<div class="details"><ul>Лични данни:
+            <li>
+<strong>Име: </strong>Пепи</li>
+<li>
+<strong>Презиме: </strong>Крачолов</li>
+<li>
+<strong>Фамилия: </strong>Колев</li>
+<li>
+<strong>e-mail: </strong>p_kolev@gmail.com</li>
+<li>
+<strong>Телефон: </strong>0877-34-34-34</li>
+</ul></div>
+<div class="contract"><ul>Договор:
+            <li>
+<strong>Вид: </strong>срочен</li>
+<li>
+<strong>Начало: </strong>2020-03-26</li>
+<li>
+<strong>Срок: </strong>2 години</li>
+<li>
+<strong>Край: </strong>2022-03-26</li>
+<li>
+<strong>Позиция: </strong>Човешки ресурси</li>
+<li>
+<strong>Заплата: </strong>1500 лв.</li>
+</ul></div>
+<img class="profilePicture" src="profilePics/e2.jpg">
+</div>
+</div>
+<div id="sortedName">
+<div class="out">
+<div class="details"><ul>Лични данни:
+            <li>
+<strong>Име: </strong>Ваньо</li>
+<li>
+<strong>Презиме: </strong>Пенков</li>
+<li>
+<strong>Фамилия: </strong>Лазаров</li>
+<li>
+<strong>e-mail: </strong>i_lazarov@gmail.com</li>
+<li>
+<strong>Телефон: </strong>0877-96-56-23</li>
 </ul></div>
 <div class="contract"><ul>Договор:
             <li>
@@ -249,7 +252,7 @@
 <li>
 <strong>e-mail: </strong>g_kostov@gmail.com</li>
 <li>
-<strong>Телефон: </strong>0888888888</li>
+<strong>Телефон: </strong>0888-88-88-88</li>
 </ul></div>
 <div class="contract"><ul>Договор:
             <li>
@@ -261,7 +264,7 @@
 <li>
 <strong>Срок: </strong>2 години</li>
 <li>
-<strong>Край: </strong>2022-03-6</li>
+<strong>Край: </strong>2022-03-06</li>
 <li>
 <strong>Заплата: </strong>3000 лв.</li>
 </ul></div>
@@ -278,7 +281,7 @@
 <li>
 <strong>e-mail: </strong>m_hubenov@gmail.com</li>
 <li>
-<strong>Телефон: </strong>0877789542</li>
+<strong>Телефон: </strong>0877-78-95-42</li>
 </ul></div>
 <div class="contract"><ul>Договор:
             <li>
@@ -303,7 +306,7 @@
 <li>
 <strong>e-mail: </strong>l_malkova@gmail.com</li>
 <li>
-<strong>Телефон: </strong>0877789542</li>
+<strong>Телефон: </strong>0877-78-95-42</li>
 </ul></div>
 <div class="contract"><ul>Договор:
             <li>
@@ -332,7 +335,7 @@
 <li>
 <strong>e-mail: </strong>m_hubenov@gmail.com</li>
 <li>
-<strong>Телефон: </strong>0877789542</li>
+<strong>Телефон: </strong>0877-78-95-42</li>
 </ul></div>
 <div class="contract"><ul>Договор:
             <li>
@@ -361,7 +364,7 @@
 <li>
 <strong>e-mail: </strong>p_kolev@gmail.com</li>
 <li>
-<strong>Телефон: </strong>0877343434</li>
+<strong>Телефон: </strong>0877-34-34-34</li>
 </ul></div>
 <div class="contract"><ul>Договор:
             <li>
@@ -390,7 +393,7 @@
 <li>
 <strong>e-mail: </strong>ch_peceva@abv.com</li>
 <li>
-<strong>Телефон: </strong>0877789542</li>
+<strong>Телефон: </strong>0877-78-95-42</li>
 </ul></div>
 <div class="contract"><ul>Договор:
             <li>
