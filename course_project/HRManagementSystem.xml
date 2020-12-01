@@ -111,7 +111,7 @@
 		</employee>
 		<employee>
 			<id>e6</id>
-			<depId>101</depId>
+			<depId>102</depId>
 			<personal-info>
 				<firstName>Черешка</firstName>
 				<secondName>Николова</secondName>
@@ -124,7 +124,7 @@
 			<contract>
 				<type>безсрочен</type>
 				<signDate>-2020-03-06</signDate>
-				<position>Електротехник</position>
+				<position>Мениджър</position>
 				<salary>2300</salary>
 			</contract>
 		</employee>
@@ -143,7 +143,7 @@
 			<contract>
 				<type>по заместване</type>
 				<signDate>2020-10-26</signDate>
-				<position>Строителен инженер</position>
+				<position>Мениджър</position>
 				<salary>2300</salary>
 			</contract>
 		</employee>
@@ -153,18 +153,18 @@
 		<departmentInfo>
 			<depId>101</depId>
 			<departmentName>Техническо обслужване</departmentName>
-			<leaderId>e1</leaderId>
+			<leaderId>e3</leaderId>
 		</departmentInfo>
 		<departmentInfo>
 			<depId>102</depId>
 			<departmentName>Човешки ресурси</departmentName>
-			<leaderId>e1</leaderId>
+			<leaderId>e6</leaderId>
 		</departmentInfo>
 
 		<departmentInfo>
 			<depId>103</depId>
 			<departmentName>Инженерество</departmentName>
-			<leaderId>e1</leaderId>
+			<leaderId>e7</leaderId>
 		</departmentInfo>
 
 	</departmentList>

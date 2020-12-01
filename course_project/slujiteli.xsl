@@ -24,7 +24,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <div class="topnav">
       <a href="slujiteli.html">Служители</a>
       <a href="otdeli.html">Отдели</a>
-<!--       <a href="#pozicii">Позиции</a> -->
     </div>
 
   <div style="padding-left:16px"></div>
