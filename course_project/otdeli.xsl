@@ -26,16 +26,16 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
           <div class = "depHeader"><strong><h2><xsl:value-of select="departmentName"/></h2></strong></div>
           
           <div class="manager"><strong><h>Мениджър: </h></strong>
-          <xsl:value-of select="/HRManagement/employeeList/employee[id = $leaderId]/personal-info/firstName"/>&#160;
-          <xsl:value-of select="/HRManagement/employeeList/employee[id = $leaderId]/personal-info/familyName"/></div>
+          <xsl:value-of select="/HRManagement/employeeList/employee[id = $leaderId]/personal-info/firstName"/>&#160;<xsl:value-of
+           select="/HRManagement/employeeList/employee[id = $leaderId]/personal-info/familyName"/></div>
           
           <div class = "managerEmail">
           <xsl:value-of select="/HRManagement/employeeList/employee[id = $leaderId]/contact-info/email-address"/></div>
 
           <div class = "names">
             <xsl:for-each select="/HRManagement/employeeList/employee[depId = $dId and id != $leaderId]">
-              <li><xsl:value-of select="personal-info/firstName"/>&#160;<xsl:value-of select="personal-info/familyName"/>
-              : <xsl:value-of select="contract/position"/>
+              <li><xsl:value-of select="personal-info/firstName"/>&#160;<xsl:value-of select="personal-info/familyName"/>: <xsl:value-of
+               select="contract/position"/>
               </li>
             </xsl:for-each>
           </div>
