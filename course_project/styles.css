@@ -77,6 +77,10 @@ body{
   text-align: center;
 }
 
+.listTitle{
+  margin-bottom:10px;
+}
+
 .profilePicture {
   border-radius: 50%;
   float: right;
@@ -85,6 +89,7 @@ body{
   margin-right:30px;
   object-fit: cover;
 }
+
 
 .topnav {
   overflow: hidden;

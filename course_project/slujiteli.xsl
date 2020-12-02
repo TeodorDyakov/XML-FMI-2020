@@ -37,21 +37,19 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:for-each select="HRManagement/employeeList/employee">
     <xsl:sort select="contract/salary" order = "descending">
     </xsl:sort>
-      <div  class = "out">
-        
+      <div  class = "out">  
         <div class = "details">
-          
-          <ul>Лични данни:
+          <ul><div class="listTitle">Лични данни:</div>
             <li><strong>Име: </strong> <xsl:value-of select="personal-info/firstName"/></li>
             <li><strong>Презиме: </strong><xsl:value-of select="personal-info/secondName"/></li>
             <li><strong>Фамилия: </strong><xsl:value-of select="personal-info/familyName"/></li>
             <li><strong>e-mail: </strong><xsl:value-of select="contact-info/email-address"/></li>
             <li><strong>Телефон: </strong><xsl:value-of select="contact-info/telephone"/></li>
-        </ul>
+          </ul>
         </div>
 
         <div class = "contract">
-          <ul>Договор:
+          <ul><div class="listTitle">Договор:</div>
             <li><strong>Вид: </strong><xsl:value-of select="contract/type"/></li>
             <li><strong>Начало: </strong><xsl:value-of select="contract/signDate"/></li>
              <xsl:if test="contract/duration">
@@ -64,9 +62,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <li><strong>Заплата: </strong><xsl:value-of select="contract/salary"/> лв.</li>
           </ul>
         </div>
-
           <img class = "profilePicture" src="profilePics/{id}.jpg"/>
-
       </div>
     </xsl:for-each>
   </div>
@@ -75,10 +71,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:for-each select="HRManagement/employeeList/employee">
     <xsl:sort select="personal-info/firstName"></xsl:sort>
       <div  class = "out">
-        
         <div class = "details">
-          
-          <ul>Лични данни:
+          <ul><div class="listTitle">Лични данни:</div>
             <li><strong>Име: </strong> <xsl:value-of select="personal-info/firstName"/></li>
             <li><strong>Презиме: </strong><xsl:value-of select="personal-info/secondName"/></li>
             <li><strong>Фамилия: </strong><xsl:value-of select="personal-info/familyName"/></li>
@@ -86,9 +80,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <li><strong>Телефон: </strong><xsl:value-of select="contact-info/telephone"/></li>
         </ul>
         </div>
-
         <div class = "contract">
-          <ul>Договор:
+          <ul><div class="listTitle">Договор:</div>
             <li><strong>Вид: </strong><xsl:value-of select="contract/type"/></li>
             <li><strong>Начало: </strong><xsl:value-of select="contract/signDate"/></li>
              <xsl:if test="contract/duration">
@@ -101,9 +94,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <li><strong>Заплата: </strong><xsl:value-of select="contract/salary"/> лв.</li>
           </ul>
         </div>
-
           <img class = "profilePicture" src="profilePics/{id}.jpg"/>
-
       </div>
     </xsl:for-each>
   </div>
