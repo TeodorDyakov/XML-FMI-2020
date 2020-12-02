@@ -154,9 +154,11 @@
 				<salary>2300</salary>
 			</contract>
 		</employee>
+
 	</employeeList>
 
 	<departmentList>
+
 		<departmentInfo>
 			<depId>101</depId>
 			<departmentName>Техническо обслужване</departmentName>
