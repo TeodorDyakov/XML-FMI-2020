@@ -69,6 +69,7 @@
                 <xs:element name="firstName" type="xs:string"/>
                 <xs:element name="secondName" type="xs:string"/>
                 <xs:element name="familyName" type="xs:string"/>
+                <xs:element name="birthdate" type="xs:date"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>

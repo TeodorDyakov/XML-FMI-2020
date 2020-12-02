@@ -9,6 +9,7 @@
 				<firstName>Ваньо</firstName>
 				<secondName>Пенков</secondName>
 				<familyName>Лазаров</familyName>
+				<birthdate>1998-02-01</birthdate>
 			</personal-info>
 			<contact-info>
 				<email-address>i_lazarov@gmail.com</email-address>
@@ -29,6 +30,7 @@
 				<firstName>Пепи</firstName>
 				<secondName>Крачолов</secondName>
 				<familyName>Колев</familyName>
+				<birthdate>1988-02-01</birthdate>
 			</personal-info>
 			<contact-info>
 				<email-address>p_kolev@gmail.com</email-address>
@@ -51,6 +53,7 @@
 				<firstName>Господин</firstName>
 				<secondName>Парцалев</secondName>
 				<familyName>Костов</familyName>
+				<birthdate>1986-02-01</birthdate>
 			</personal-info>
 			<contact-info>
 				<email-address>g_kostov@gmail.com</email-address>
@@ -73,6 +76,7 @@
 				<firstName>Мартин</firstName>
 				<secondName>Хубенов</secondName>
 				<familyName>Кандиларов</familyName>
+				<birthdate>1987-12-09</birthdate>
 			</personal-info>
 			<contact-info>
 				<email-address>m_kandilarov@gmail.com</email-address>
@@ -95,6 +99,7 @@
 				<firstName>Лиляна</firstName>
 				<secondName>Костадинова</secondName>
 				<familyName>Малкова</familyName>
+				<birthdate>1997-06-06</birthdate>
 			</personal-info>
 			<contact-info>
 				<email-address>l_malkova@gmail.com</email-address>
@@ -116,6 +121,7 @@
 				<firstName>Черешка</firstName>
 				<secondName>Николова</secondName>
 				<familyName>Пецева</familyName>
+				<birthdate>1923-02-01</birthdate>
 			</personal-info>
 			<contact-info>
 				<email-address>ch_peceva@abv.com</email-address>
@@ -135,6 +141,7 @@
 				<firstName>Гълъбин</firstName>
 				<secondName>Соев</secondName>
 				<familyName>Граждански</familyName>
+				<birthdate>1967-02-01</birthdate>
 			</personal-info>
 			<contact-info>
 				<email-address>gulubin_grajdanski@gmail.com</email-address>

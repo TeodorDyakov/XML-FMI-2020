@@ -43,6 +43,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <li><strong>Име: </strong> <xsl:value-of select="personal-info/firstName"/></li>
             <li><strong>Презиме: </strong><xsl:value-of select="personal-info/secondName"/></li>
             <li><strong>Фамилия: </strong><xsl:value-of select="personal-info/familyName"/></li>
+            <li><strong>Рожден ден: </strong><xsl:value-of select="personal-info/birthdate"/></li>
             <li><strong>e-mail: </strong><xsl:value-of select="contact-info/email-address"/></li>
             <li><strong>Телефон: </strong><xsl:value-of select="contact-info/telephone"/></li>
           </ul>
